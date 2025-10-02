@@ -5,7 +5,10 @@ docs/_build/
 npm-debug.log
 
 node_modules
+dist
 .rpt2_cache
+
+/dist
 
 .vscode
 /lib
