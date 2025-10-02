@@ -31,7 +31,6 @@
 		"test": "npm run node-test && npm run browser-test",
 		"build": "rollup -c",
 		"build:watch": "rollup -cw",
-		"prepare": "npm run build",
 		"prepublishOnly": "npm test && npm run lint",
 		"preversion": "npm run lint",
 		"version": "npm run format && git add -A",
